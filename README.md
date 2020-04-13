@@ -20,13 +20,13 @@ This project builds up three CNNs and an algorithm to identify the breed of dogs
 
 `$ git clone https://github.com/YueminLi/Dog_Breed_Classifier.git`
 
-4.Download the following two pre-trained models and save them into a new folder named "bottleneck_features" in the Dog_Breed_Classifier repository:
+4.Download the following two pre-trained models and save them into a new folder named `bottleneck_features` in the Dog_Breed_Classifier repository:
 
 [VGG16](s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) bottleneck features
 
 [ResNet-50](s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz) bottleneck features
 
-5. Create a new folder named "saved_models" in the Dog_Breed_Classifier repository.
+5. Create a new folder named `saved_models` in the Dog_Breed_Classifier repository.
 
 6.Run this Jupyter notebook in your local Anaconda Jupyter Notebook environment:
 
@@ -34,19 +34,21 @@ This project builds up three CNNs and an algorithm to identify the breed of dogs
 
 ## File Descriptions
 
+- `haarcascades`: folder contains pre-trained face detectors
+  - `haarcascade_frontface_alt.xml`: the pre-trained face detector used in the `dog_app.ipynb` notebook
+  
 - `images`: folder contains all example images shown in the `dog_app.ipynb` notebook
 
 - `test`: folder contains all test images used to test the algorithm in step 7
 
+- `dog_app.ipynb`: Jupyter notebook that contains full codes to build up CNNs and algorithm
+
+- `extract_bottleneck_features.py`: Python function to extract bottleneck features
+
 - `bottleneck_features`: folder contains pre-trained models
   - `DogVGG16Data.npz`: pre-trained VGG16 model (this will need to be downloaded from the link provided above)
   - `DogResnet50Data.npz`: pre-trained ResNet-50 model (this will need to be downloaded from the link provided above)
-
-- `dog_app.ipynb`: Jupyter notebook that contains full codes to build up CNNs and algorithm
-
-- `haarcascades`: folder contains pre-trained face detectors
-  - `haarcascade_frontface_alt.xml`: the pre-trained face detector used in the `dog_app.ipynb` notebook
-
+  
 - `saved_models`: folder contains trained models from the `dog_app.ipynb` notebook (all are saved while running the `dog_app.ipynb`)
   - `weights.best.from_scratch.hdf5`: stores the trained model with the best validation loss from self-created CNN
   - `weights.best.VGG16.hdf5`: stores the trained model with the best validation loss from VGG16 model
