@@ -20,7 +20,7 @@ This project builds up three CNNs and an algorithm to identify the breed of dogs
 
   `$ git clone https://github.com/YueminLi/Dog_Breed_Classifier.git`
 
-4. Download the following two pre-trained models and save them into a new folder named `bottleneck_features` in the Dog_Breed_Classifier repository:
+4. Download the following pre-trained model and save it to `bottleneck_features` in the Dog_Breed_Classifier repository:
 
 - [ResNet-50](s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz) bottleneck features
 
@@ -44,7 +44,7 @@ This project builds up three CNNs and an algorithm to identify the breed of dogs
 - `extract_bottleneck_features.py`: Python function to extract bottleneck features
 
 - `bottleneck_features`: folder contains pre-trained models
-  - `DogVGG16Data.npz`: pre-trained VGG16 model (this will need to be downloaded from the link provided above)
+  - `DogVGG16Data.npz`: pre-trained VGG16 model (this has already been downloaded)
   - `DogResnet50Data.npz`: pre-trained ResNet-50 model (this will need to be downloaded from the link provided above)
   
 - `saved_models`: folder contains trained models from the `dog_app.ipynb` notebook (all are saved while running the `dog_app.ipynb`)
