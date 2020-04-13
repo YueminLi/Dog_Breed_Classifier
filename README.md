@@ -12,25 +12,25 @@ This project builds up three CNNs and an algorithm to identify the breed of dogs
 
 ## Installation
 
-1.Install Anaconda if you have not installed it. Otherwise, skip this step.
+1. Install Anaconda if you have not installed it. Otherwise, skip this step.
 
-2.Update Anaconda by typing conda update -all in Anaconda Prompt.
+2. Update Anaconda by typing conda update -all in Anaconda Prompt.
 
-3.Clone this repository to your local machine using:
+3. Clone this repository to your local machine using:
 
-`$ git clone https://github.com/YueminLi/Dog_Breed_Classifier.git`
+  `$ git clone https://github.com/YueminLi/Dog_Breed_Classifier.git`
 
-4.Download the following two pre-trained models and save them into a new folder named `bottleneck_features` in the Dog_Breed_Classifier repository:
+4. Download the following two pre-trained models and save them into a new folder named `bottleneck_features` in the Dog_Breed_Classifier repository:
 
-[VGG16](s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) bottleneck features
+- [VGG16](s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) bottleneck features
 
-[ResNet-50](s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz) bottleneck features
+- [ResNet-50](s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz) bottleneck features
 
 5. Create a new folder named `saved_models` in the Dog_Breed_Classifier repository.
 
-6.Run this Jupyter notebook in your local Anaconda Jupyter Notebook environment:
+6. Run this Jupyter notebook in your local Anaconda Jupyter Notebook environment:
 
-`dog_app.ipynb`
+  `dog_app.ipynb`
 
 ## File Descriptions
 
