@@ -22,8 +22,6 @@ This project builds up three CNNs and an algorithm to identify the breed of dogs
 
 4. Download the following two pre-trained models and save them into a new folder named `bottleneck_features` in the Dog_Breed_Classifier repository:
 
-- [VGG16](s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) bottleneck features
-
 - [ResNet-50](s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz) bottleneck features
 
 5. Create a new folder named `saved_models` in the Dog_Breed_Classifier repository.
